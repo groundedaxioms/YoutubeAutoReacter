@@ -14,7 +14,7 @@ def main():
     else:
         print("Detected url list.", end=' ')
 
-    print("Initiating react process . . . \n")    
+    print("Initiating automatic reactions to " + CHANNELHANDLE + " . . . \n")    
 
     for i in range(MAXUPLOADS):
         vid_no = INITVIDNO + i
